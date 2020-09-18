@@ -11,8 +11,8 @@ You have a list of test questions and their expected intent and their previous s
 
 A file for everything needed is included. 
 
-Python Notebook
-Python File
+Python Notebook /n
+Python File /n
 Example Log File
 Example Question Set
 Example Watson Skill
