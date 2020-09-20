@@ -44,6 +44,10 @@ This implementation requires you to add one node to your Workspace in order to w
 
 ![Image of Watson Custom](https://i.ibb.co/n3XYzDw/Screenshot-2020-09-20-at-23-27-53.png)
 
+
+The message is sent with the context $ConfidenceTester which will trigger the node we want to test and log the context. In the sender function we also specify return context. If this isn't sent as part of the request there will be nothing returned to be logged.
+
+
 ```python
 input={
         'message_type': 'text',
@@ -69,7 +73,9 @@ input={
 
 A confusion matrix is a great way to check labelled data predictions vs their actual results when there's only a handful of predictions. The results are normalised so if you have 30 examples of intent X and only 2 Examples of intent Y you will get a consitent set of results.  
 
-The below shows a solid red running through the matrix showing the prediction matches the output. 
+The below shows a solid red running through the matrix showing the prediction matches the output. This file is overwritten each time it's created if you'd like to keep a historic version you can move it to another folder or rename the file after it's saved.
+
+More information can be found https://en.wikipedia.org/wiki/Confusion_matrix 
 
  
 ![Image of Confusion Matrix](https://i.ibb.co/pK9QPcc/Confusion-Matrix.png)
@@ -97,5 +103,3 @@ with
 ```
 
 I’ve used the content from the Watson content catalogue for Mortgages for testing and example purposes but this can easily be customised to your own question set by exporting your intents as a CSV and then copying them in and making changes.
-
-
