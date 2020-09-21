@@ -101,6 +101,7 @@ More information can be found https://en.wikipedia.org/wiki/Confusion_matrix
 
 ### Customisation
 
+#### Log the standard system confidence
 
 If you'd like to just log the output from Watson including the lower than 20% irrelevant results you can do that be replacing the belwo code 
 
@@ -121,6 +122,28 @@ with
     except:
         IntentList.append("ZLowConf")
 ```
+
+#### Remove the comments to print averages terminal. 
+ 
+
+```python 
+#print(AverageDF)
+```
+
+To see the average confidence per intent.
+
+```python 
+#print(MeanDF)
+```
+
+To see the mean
+
+
+```python
+#print(IntentCountDF)
+```
+
+To see the number of examples tested per intent
 
 
 This requires no nodes in the conversation to be added but doesn't give the conversation builder a great idea on where the bots understanding is leaning towards even if slightly. 
