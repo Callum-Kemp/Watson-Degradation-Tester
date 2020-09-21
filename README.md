@@ -125,6 +125,8 @@ with
         IntentList.append("ZLowConf")
 ```
 
+ZLowConf is used to keep the confusion matrix looking clean. You can call this anything you want if you don't use the Confusion Matrix
+
 #### Remove the comments to print averages terminal. 
  
 
