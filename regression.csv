@@ -1,0 +1,21 @@
+Question,Expected,Intent,Confidence,Matched,Previous Score
+Apply for mortgage,mortgage_apply_for_mortgage,mortgage_apply_for_mortgage,0.9169047832489015,Matched,0.9169047832489016
+Can I apply for a mortgage before I find a specific house,mortgage_apply_loan_before_home,mortgage_apply_loan_before_home,0.7923745155334474,Matched,0.7923745155334474
+what's the amount that i can borrow,mortgage_borrow_amount_inquiry,mortgage_borrow_amount_inquiry,0.960192108154297,Matched,0.960192108154297
+how long to close a loan,mortgage_close_loan,mortgage_close_loan,0.8356327056884767,Matched,0.8356327056884767
+what are my costs to close,mortgage_closing_costs_inquiry,mortgage_closing_costs_inquiry,0.7378188133239747,Matched,0.7378188133239747
+Need a broker,mortgage_contact_mortgage_broker,mortgage_contact_mortgage_broker,0.9662515640258789,Matched,0.9662515640258788
+What's my credit score,mortgage_credit_score_inquiry,mortgage_credit_score_inquiry,0.9564120292663574,Matched,0.9564120292663574
+Can I be pre approved?,mortgage_get_pre_approved,mortgage_get_pre_approved,0.39550305519481416,Matched,0.39550305519481416
+How much is my  down payment going to be,mortgage_how_much_down_payment,mortgage_how_much_down_payment,0.719779396057129,Matched,0.719779396057129
+when can i lock in my interest rate,mortgage_how_to_lock_rate,mortgage_how_to_lock_rate,0.9572975158691406,Matched,0.9572975158691406
+Making a payment online,mortgage_make_mortgage_payment,mortgage_make_mortgage_payment,0.3454051142181697,Matched,0.3454051142181697
+what's the minimum down payment,mortgage_minimum_down_payment_inquiry,mortgage_minimum_down_payment_inquiry,0.9531894207000733,Matched,0.9531894207000732
+can i have more than one mortgage at the same time?,mortgage_more_than_one_mortgage,mortgage_more_than_one_mortgage,0.9636319637298585,Matched,0.9636319637298584
+I need an FHA loa,mortgage_need_fha_loan,mortgage_need_fha_loan,0.7949196338653566,Matched,0.7949196338653566
+what is pmi,mortgage_private_mortgage_insurance_inquiry,mortgage_private_mortgage_insurance_inquiry,0.4559160947799683,Matched,0.4559160947799683
+Should I refinance,mortgage_refinance_mortgage_inquiry,mortgage_refinance_mortgage_inquiry,0.9844923496246338,Matched,0.9844923496246338
+What are acceptable income sources,mortgage_what_acceptable_sources_income,mortgage_what_acceptable_sources_income,0.40343907466069595,Matched,0.403439074660696
+What are the costs of getting a mortgage,mortgage_what_costs_involved,mortgage_what_costs_involved,0.9573781490325928,Matched,0.9573781490325928
+What makes up a monthly mortgage payment,mortgage_what_included_monthly,mortgage_what_included_monthly,0.8884080886840822,Matched,0.8884080886840822
+What documents do I need,mortgage_what_need_apply_mortgage,mortgage_what_need_apply_mortgage,0.25124022801167034,Matched,0.25124022801167034

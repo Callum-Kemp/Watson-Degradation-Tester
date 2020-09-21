@@ -1,0 +1,617 @@
+{
+  "intents": [
+    {
+      "intent": "Mortgage_Apply_for_Mortgage",
+      "examples": [
+        {
+          "text": "how can i apply for a new mortgage"
+        },
+        {
+          "text": "how do i apply for a mortgage"
+        },
+        {
+          "text": "how do i go about applying for a mortgage"
+        },
+        {
+          "text": "i want to apply for a mortgage"
+        },
+        {
+          "text": "what do i need to apply for a mortgage"
+        }
+      ],
+      "description": "Inquire about how to apply for a mortgage."
+    },
+    {
+      "intent": "Mortgage_Apply_Loan_Before_Home",
+      "examples": [
+        {
+          "text": "before i buy a home can i apply for a mortgage"
+        },
+        {
+          "text": "can i apply for a loan before finding a home to purchase"
+        },
+        {
+          "text": "can i apply for a loan before i find a property to purchase"
+        },
+        {
+          "text": "can i apply for a mortgage loan before i find a home to buy"
+        },
+        {
+          "text": "is it possible to apply for a mortage loan before i buy a home"
+        }
+      ],
+      "description": "Inquire about if you can apply for a home loan before purchasing a home."
+    },
+    {
+      "intent": "Mortgage_Borrow_Amount_Inquiry",
+      "examples": [
+        {
+          "text": "how much can i borrow"
+        },
+        {
+          "text": "what is the amount that i can borrow"
+        },
+        {
+          "text": "what is the maximum amount i can borrow"
+        },
+        {
+          "text": "what is the minimum amount i can borrow"
+        },
+        {
+          "text": "what's the maximum amount i can borrow"
+        },
+        {
+          "text": "what's the minimum amount i can borrow"
+        }
+      ],
+      "description": "Inquire about the maximum/minimum amount needed to borrow."
+    },
+    {
+      "intent": "Mortgage_Close_Loan",
+      "examples": [
+        {
+          "text": "how long does it take to close a home mortgage loan"
+        },
+        {
+          "text": "how long will it take to close a mortgage loan"
+        },
+        {
+          "text": "how long would it take to close a first mortgage loan"
+        },
+        {
+          "text": "how quickly can you close on a mortgage loan"
+        },
+        {
+          "text": "id like to close a mortgage loan how long would it take"
+        }
+      ],
+      "description": "Inquire about how to close a mortgage loan."
+    },
+    {
+      "intent": "Mortgage_Closing_Costs_inquiry",
+      "examples": [
+        {
+          "text": "how much will i have to pay in closing costs"
+        },
+        {
+          "text": "how much will i pay in closing costs"
+        },
+        {
+          "text": "what are closing costs"
+        },
+        {
+          "text": "what are my closing costs"
+        },
+        {
+          "text": "what are the closing costs"
+        },
+        {
+          "text": "what will i pay in closing costs"
+        }
+      ],
+      "description": "Inquire about the closing costs."
+    },
+    {
+      "intent": "Mortgage_Contact_Mortgage_Broker",
+      "examples": [
+        {
+          "text": "can i speak with a mortgage broker"
+        },
+        {
+          "text": "get me a broker"
+        },
+        {
+          "text": "get me a mortgage broker"
+        },
+        {
+          "text": "give me a mortgage broker"
+        },
+        {
+          "text": "i need a broker"
+        },
+        {
+          "text": "i need a mortgage broker"
+        },
+        {
+          "text": "i want a mortgage broker to call me"
+        },
+        {
+          "text": "mortgage broker"
+        },
+        {
+          "text": "talk to my broker"
+        },
+        {
+          "text": "talk to my mortgage broker"
+        }
+      ],
+      "description": "Request to speak to a mortgage broker."
+    },
+    {
+      "intent": "Mortgage_Credit_Score_Inquiry",
+      "examples": [
+        {
+          "text": "tell me my credit score"
+        },
+        {
+          "text": "what determines a credit score"
+        },
+        {
+          "text": "what is a credit score"
+        },
+        {
+          "text": "what is a credit score or fico score"
+        },
+        {
+          "text": "what is my credit score"
+        }
+      ],
+      "description": "Request information about credit scores."
+    },
+    {
+      "intent": "Mortgage_Get_Pre_Approved",
+      "examples": [
+        {
+          "text": "can i get pre-approved"
+        },
+        {
+          "text": "how can i get a mortgage pre-approval"
+        },
+        {
+          "text": "how can i get pre-approved"
+        },
+        {
+          "text": "how can I get pre-approved for my mortgage"
+        },
+        {
+          "text": "how do i get pre-approved"
+        }
+      ],
+      "description": "Inquire about how to get preapproved for a mortgage."
+    },
+    {
+      "intent": "Mortgage_How_Much_Down_Payment",
+      "examples": [
+        {
+          "text": "how much cash do i need to buy a home (in addition to closing cost and down payment)"
+        },
+        {
+          "text": "how much do i need for a down payment"
+        },
+        {
+          "text": "how much down payment will i need"
+        },
+        {
+          "text": "how much of a down payment will i need"
+        },
+        {
+          "text": "how much will i need for a down payment"
+        },
+        {
+          "text": "how much will i need for the down payment"
+        },
+        {
+          "text": "what is the minimum down payment required for the purchase of a home financed with pefcu"
+        },
+        {
+          "text": "what is the minimum down payment required to purchase a home"
+        }
+      ],
+      "description": "Inquire about how much down payment is needed."
+    },
+    {
+      "intent": "Mortgage_How_to_Lock_Rate",
+      "examples": [
+        {
+          "text": "can i lock in a rate how can i do that"
+        },
+        {
+          "text": "how do i lock my rate"
+        },
+        {
+          "text": "when can i lock in a rate"
+        },
+        {
+          "text": "when can i lock in my rate"
+        },
+        {
+          "text": "when do i lock in my rate"
+        }
+      ],
+      "description": "Request to lock in a rate."
+    },
+    {
+      "intent": "Mortgage_Make_Mortgage_Payment",
+      "examples": [
+        {
+          "text": "can i make a mortgage payment by phone"
+        },
+        {
+          "text": "can i make a mortgage payment online"
+        },
+        {
+          "text": "how can i make my mortgage payment online"
+        },
+        {
+          "text": "how can i make my mortgage payment online or over the phone"
+        },
+        {
+          "text": "how do i make my mortgage payment"
+        }
+      ],
+      "description": "Request to make a mortgage payment online."
+    },
+    {
+      "intent": "Mortgage_Minimum_Down_Payment_Inquiry",
+      "examples": [
+        {
+          "text": "what is the minimum down payment"
+        },
+        {
+          "text": "what is the minimum down payment for conventional"
+        },
+        {
+          "text": "what is the minimum down payment required by a lender in order to eliminate pmi"
+        },
+        {
+          "text": "what is the minimum down payment required for a home loan"
+        },
+        {
+          "text": "what is the minimum down payment required for this loan"
+        }
+      ],
+      "description": "Inquire about the minimum down payment required."
+    },
+    {
+      "intent": "Mortgage_More_Than_One_Mortgage",
+      "examples": [
+        {
+          "text": "can i have more than one mortgage"
+        },
+        {
+          "text": "can i have more than one mortgage at a time"
+        },
+        {
+          "text": "can i have more than one mortgage on the same house"
+        },
+        {
+          "text": "Can you have more than a single mortgage"
+        },
+        {
+          "text": "is it possible to have more than one mortgage"
+        }
+      ],
+      "description": "Inquire about if you can have more than a single mortgage."
+    },
+    {
+      "intent": "Mortgage_Need_FHA_Loan",
+      "examples": [
+        {
+          "text": "how do i get an fha loan"
+        },
+        {
+          "text": "how do i prequalify for an fha loan"
+        },
+        {
+          "text": "how to get an fha loan"
+        },
+        {
+          "text": "need an fha loan"
+        },
+        {
+          "text": "what is required for an fha loan"
+        },
+        {
+          "text": "who can qualify for an fha loan"
+        }
+      ],
+      "description": "Request information about an FHA loan."
+    },
+    {
+      "intent": "Mortgage_Private_Mortgage_Insurance_Inquiry",
+      "examples": [
+        {
+          "text": "how long do i have to pay for private mortgage insurance (pmi) on my loan"
+        },
+        {
+          "text": "is private mortgage insurance (pmi) tax deductible"
+        },
+        {
+          "text": "is private mortgage insurance required"
+        },
+        {
+          "text": "what are the different types of mortgage insurance"
+        },
+        {
+          "text": "what does mortgage insurance cost"
+        },
+        {
+          "text": "what is lenders mortgage insurance"
+        },
+        {
+          "text": "what is mortgage insurance"
+        },
+        {
+          "text": "what is mortgage insurance and when is it required"
+        },
+        {
+          "text": "what is pmi (private mortgage insurance)"
+        },
+        {
+          "text": "what is private mortgage insurance"
+        },
+        {
+          "text": "what is private mortgage insurance and is it required"
+        },
+        {
+          "text": "what is private mortgage insurance (pmi)"
+        },
+        {
+          "text": "what is private mortgage insurance (pmi) and why do i need it"
+        },
+        {
+          "text": "what is private mortgage insurance (pmi) do i have to pay it"
+        },
+        {
+          "text": "what's mortgage insurance premium (mip) and private mortgage insurance (pmi)"
+        },
+        {
+          "text": "what's private mortgage insurance (pmi)"
+        },
+        {
+          "text": "why do i need private mortgage insurance (pmi)"
+        },
+        {
+          "text": "why is private mortgage insurance (pmi) required"
+        },
+        {
+          "text": "will i need to pay private mortgage insurance (pmi)"
+        }
+      ],
+      "description": "Ask questions about Private Mortgage Insurance (PMI)."
+    },
+    {
+      "intent": "Mortgage_Refinance_Mortgage_Inquiry",
+      "examples": [
+        {
+          "text": "can i refinance an existing reverse mortgage"
+        },
+        {
+          "text": "can i refinance a reverse mortgage like a traditional home mortgage"
+        },
+        {
+          "text": "i had an option one loan but was able to refinance out of it and get a mortgage with another lender. am i still eligible for a loan modification"
+        },
+        {
+          "text": "i have a mortgage and want to refinance"
+        },
+        {
+          "text": "i want to refinance my loan with my existing lender"
+        },
+        {
+          "text": "should i refinance my existing mortgage"
+        },
+        {
+          "text": "should i refinance my mortgage"
+        },
+        {
+          "text": "should you refinance your mortgage"
+        },
+        {
+          "text": "what is a mortgage refinance"
+        },
+        {
+          "text": "what is an fha streamline refinance mortgage loan"
+        },
+        {
+          "text": "why should i refinance"
+        },
+        {
+          "text": "why should i refinance my current mortgage"
+        },
+        {
+          "text": "why should i refinance my mortgage"
+        },
+        {
+          "text": "will i be able to refinance my existing fha loan"
+        }
+      ],
+      "description": "Request information about how to refinance a mortgage."
+    },
+    {
+      "intent": "Mortgage_What_Acceptable_Sources_Income",
+      "examples": [
+        {
+          "text": "what are acceptable sources of income if i'm employed"
+        },
+        {
+          "text": "what are acceptable sources of income if i'm in the military"
+        },
+        {
+          "text": "what are acceptable sources of income if i'm retired"
+        },
+        {
+          "text": "what are acceptable sources of income if i'm self-employed"
+        },
+        {
+          "text": "what are the different acceptable sources of income"
+        }
+      ],
+      "description": "Request information on the acceptable sources of income for a mortgage."
+    },
+    {
+      "intent": "Mortgage_What_Costs_Involved",
+      "examples": [
+        {
+          "text": "what are the costs of getting a mortgage loan"
+        },
+        {
+          "text": "what are the costs of obtaining a heloc or second mortgage"
+        },
+        {
+          "text": "what costs are included in a mortgage"
+        },
+        {
+          "text": "what costs are involved in getting a mortgage"
+        },
+        {
+          "text": "what costs are involved in obtaining a mortgage"
+        }
+      ],
+      "description": "Ask what costs are involved in a mortgage."
+    },
+    {
+      "intent": "Mortgage_What_Included_Monthly",
+      "examples": [
+        {
+          "text": "what costs are included in my monthly mortgage payment"
+        },
+        {
+          "text": "what does a monthly mortgage payment consist of"
+        },
+        {
+          "text": "what is included in a monthly mortgage payment"
+        },
+        {
+          "text": "what is included in my monthly mortgage payment"
+        },
+        {
+          "text": "what is included in my monthly mortgage payment with pefcu"
+        }
+      ],
+      "description": "Ask what is included in monthly mortgage payments."
+    },
+    {
+      "intent": "Mortgage_What_Need_Apply_Mortgage",
+      "examples": [
+        {
+          "text": "what documents do i need to apply for a mortgage"
+        },
+        {
+          "text": "what documents will i need to apply for a mortgage"
+        },
+        {
+          "text": "what information do i need to be able to apply for a mortgage"
+        },
+        {
+          "text": "what information will i need to apply for a mortgage"
+        },
+        {
+          "text": "when i apply for a mortgage what do I need"
+        }
+      ],
+      "description": "Request information on what is needed when applying for a mortgage."
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "Welcome",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Degradation Tester",
+      "context": {
+        "Intent": "<? intents[0] ?>"
+      },
+      "conditions": "$ConfidenceTester==\"Yes\"",
+      "dialog_node": "node_6_1600530757010"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_6_1600530757010"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Watson Skill",
+  "language": "en",
+  "description": ""
+}
