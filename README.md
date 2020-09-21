@@ -23,6 +23,8 @@ There are two CSV files that are read and written to enable this to work. One is
 
 This uses the IBM Assistant V2 API https://cloud.ibm.com/apidocs/assistant/assistant-v2?code=python 
 
+You will need your API Key, URL endpoint and Assistant ID to use make requests.
+
 ##### You will need to make sure that you connect your skill to an Assistant to be able to run this.
 
 ![Image of File setup](https://i.ibb.co/G5F09WN/Screenshot-2020-09-18-at-17-32-12.png)
