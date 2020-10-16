@@ -105,7 +105,7 @@ More information can be found https://en.wikipedia.org/wiki/Confusion_matrix
 
 #### Log the standard system confidence
 
-If you'd like to just log the output from Watson including the lower than 20% irrelevant results you can do that be replacing the belwo code 
+If you'd like to just log the output from Watson including the lower than 20% irrelevant results you can do that be replacing the below code 
 
 ```python
     IntentList.append((response['context']['skills']['main skill']['user_defined']['Intent']['intent']))
